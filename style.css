@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 80px;
+}
+#container {
+    width: 350px;
+    height: 500px;
+    background-color: #ffffff;
+    border-radius: 6px;
+}
+#container .navbar{
+    height: 80px;
+    width: 100%;
+    background-color:transparent;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 10px 30px;
+    top: 40px;
+}
+#container .hea p{
+    position: relative;
+    top: -3px;
+    left: 10px;
+}
+#container .hea,.history{
+    display: flex;
+    font-size: 20px;
+}
+#container .inputText{
+    text-align: end;
+}
+#container .calculation{
+    width: 100%;
+    border: none;
+    background-color: #ffffff;
+    height: 70px;
+    font-size: 16px;
+    text-align: end;
+}
+#container .answer{
+    width: 100%;
+    border: none;
+    background-color: #ffffff;
+    height: 80px;
+    font-size: 22px;
+    text-align: end;
+
+}
+#container .row{
+    padding-top: 2px;
+}
+#container .row button{
+    width: 82px;
+    height: 51px;
+    font-size: 18px;
+    position: relative;
+    left: 5px;
+    cursor: pointer;
+}
+#container .equalButton {
+    background-color:rgb(66, 66, 252);
+    border: 1px solid blue;
+    border-radius: 2px;
+}
+#container .equalButton:hover{
+    color: #ffffff;
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
